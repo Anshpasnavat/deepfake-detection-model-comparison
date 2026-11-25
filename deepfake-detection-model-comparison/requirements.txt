@@ -1,0 +1,9 @@
+# Core dependencies used by the supervised notebooks.
+# Install a PyTorch + torchvision + torchaudio combination compatible with
+# your CUDA/runtime from the official PyTorch installation selector first.
+numpy
+pandas
+opencv-python
+Pillow
+matplotlib
+scikit-learn

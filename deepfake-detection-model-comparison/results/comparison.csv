@@ -1,0 +1,6 @@
+experiment,operating_point,accuracy,precision,recall,f1_score,roc_auc,average_precision,tn,fp,fn,tp,notes
+AVoiD-DF,saved test threshold,0.6150,0.6292,0.5600,0.5926,0.6815,,67,33,44,56,Saved 200-video test evaluation.
+AuViRe-inspired (adapted),validation-selected threshold,0.7200,0.7619,0.6400,0.6957,0.8018,,80,20,36,64,Notebook explicitly says no AV-HuBERT backbone; not reproduction of published result.
+CCMA / MMMS-BA (adapted),saved test threshold,0.8000,0.7941,0.8100,0.8020,0.8323,,79,21,19,81,Two-modality adaptation; not the full three-modality setup.
+AVH-Align,Youden J,0.7400,0.6846,0.8900,0.7739,0.7991,,59,41,11,89,Main comparison row; notebook also reports EER and max-F1 operating points.
+AV-HuBERT features + linear probe,C=0.3 selected on validation,,,,,0.9866,0.9884,,,,,Separate supervised probe; do not attribute these metrics to AVH-Align.
